@@ -1,2 +1,2 @@
 # environmental-monitoring
-基于HAL库和STM32F103芯片的温湿度与光照监测
+基于 HAL 库 + FreeRTOS 的 STM32F103 环境监测系统

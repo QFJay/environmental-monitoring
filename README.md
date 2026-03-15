@@ -1,6 +1,6 @@
 # environmental-monitoring
 一、简介
-基于 HAL 库 + FreeRTOS 的 STM32F103 环境监测系统。
+1. 这是一个基于 HAL 库 + FreeRTOS 的 STM32F103 环境监测系统
 
 二、功能
 1. 每 1 秒采集一次：

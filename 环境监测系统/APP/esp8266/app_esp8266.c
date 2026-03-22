@@ -7,7 +7,7 @@
 #define ESP8266_AP_SSID					"Play6T"
 #define ESP8266_AP_PWD					"qazwsxedc"
 
-#define ESP8266_TCP_SERVER_IP		"192.168.77.43"
+#define ESP8266_TCP_SERVER_IP		"192.168.181.43"
 #define ESP8266_TCP_SERVER_PORT	8000
 
 extern osMessageQueueId_t ESP8266SendQueueHandle;

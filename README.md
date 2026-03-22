@@ -7,17 +7,17 @@
    - DHT11：温度、湿度
    - 光敏传感器：光照
 
-2. ESP8266 上传数据（温度、湿度、光照百分比）到本地 TCP 服务器
+2. ESP8266 上传数据（温度、湿度、光照强度）到本地 TCP 服务器
 
 3. 按键切换 OLED 显示画面：
    - 画面1：湿度（当前 / 最大 / 最小）
    - 画面2：温度（当前 / 最大 / 最小）
-   - 画面3：光照百分比（当前 / 最大 / 最小）
+   - 画面3：光照强度（当前 / 最大 / 最小）
 
 4. LED 报警：
    - 湿度 > 阈值 → 红灯亮
    - 温度 > 阈值 → 绿灯亮
-   - 光照百分比 < 阈值 → 蓝灯亮
+   - 光照强度 < 阈值 → 蓝灯亮
 
 5. 串口（CH340）输出调试信息
 
@@ -68,7 +68,7 @@
 1. 报警阈值（APP\led\app_led.c）
    - HUMIDITY_THRESHOLD：湿度阈值
    - TEMPERATURE_THRESHOLD：温度阈值
-   - LIGHT_PERCENTAGE_THRESHOLD：光照百分比阈值
+   - LIGHT_PERCENTAGE_THRESHOLD：光照强度阈值
 
 2. Wi-Fi 和服务器（APP\esp8266\app_esp8266.c）
    - ESP8266_AP_SSID：Wi-Fi 名称
